@@ -20,7 +20,7 @@ const HistoryWeather = ({ location }) => {
 
   const currentDate = addDays(originalDate, dayOffset);
 
-  const url = `http://api.weatherapi.com/v1/history.json?key=1c7609957a4c441d9e980524230508&q=${location}&dt=${format(
+  const url = `https://api.weatherapi.com/v1/history.json?key=1c7609957a4c441d9e980524230508&q=${location}&dt=${format(
     currentDate,
     'yyyy-MM-dd'
   )}`;

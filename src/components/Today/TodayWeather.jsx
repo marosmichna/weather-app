@@ -20,7 +20,7 @@ const TodayWeather = ({ sendLocation }) => {
     const [data, setData] = useState({})
     const [location, setLocation] = useState("")
   
-    const url = `http://api.weatherapi.com/v1/forecast.json?key=1c7609957a4c441d9e980524230508&q=${location}&days=3&aqi=no&alerts=no`
+    const url = `https://api.weatherapi.com/v1/forecast.json?key=1c7609957a4c441d9e980524230508&q=${location}&days=3&aqi=no&alerts=no`
 
 
     const searchLocation = () => {  
